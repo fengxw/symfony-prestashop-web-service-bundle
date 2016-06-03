@@ -1,0 +1,4 @@
+services:
+    prestashop.service:
+        class: "%presta_shop_web_service%"
+        arguments: [%prestashop_url%, %prestashop_key%, %prestashop_debug%]
